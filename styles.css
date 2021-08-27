@@ -15,7 +15,7 @@ body {
 }
 
 .login-div {
-  margin: 1.5rem auto;
+  margin: 2.1rem auto;
   max-width: 430px;
   max-height: 700px;
   padding: 60px 35px 35px 35px;
@@ -101,7 +101,7 @@ img {
 }
 @keyframes ripple {
   to {
-    transform: scale(2.5);
+    transform: scale(3);
     opacity: 0;
   }
 }
