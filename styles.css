@@ -3,8 +3,8 @@
 }
 body {
   margin: 0;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   font-family: "Lato", sans-serif;
   font-weight: 700;
   display: flex;
@@ -15,6 +15,7 @@ body {
 }
 
 .login-div {
+  margin: 1.5rem auto;
   max-width: 430px;
   max-height: 700px;
   padding: 60px 35px 35px 35px;
@@ -64,4 +65,35 @@ img {
   fill: #555;
   margin: auto 15px !important;
   height: 22px;
+}
+.signin-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  text-align: center;
+  background: #24cfaa;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+.signin-button:hover {
+  background: #2fdbb6;
+}
+.signin-button:active {
+  background: #1da88a;
+}
+.link {
+  padding-top: 20px;
+  text-align: center;
+}
+.link a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 15px;
 }
